@@ -1,0 +1,120 @@
+.Address {
+    margin-left: 4%;
+}
+
+.mail {
+
+    margin-left: 4%;
+}
+
+.phoneNumber {
+    
+    margin-left: 4%;
+    padding-bottom:10%;
+    text-decoration: underline;
+}
+
+.phoneNumber:hover {
+    color: blue;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row {
+    height: 100%;
+    display: flex;
+}
+
+.mapPosition {
+    width:45%;
+    margin-left: 52%;
+    margin-right: auto;
+    position: absolute;
+    bottom: 40%;
+    height: 50%;
+}
+
+.firstRowContact {
+
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 54%;
+    background-color: #F4FDFD;
+    padding-bottom: 8.7%;
+    display: inline-block;
+    width: 45%;
+    padding-bottom: 3%;
+
+}
+
+.otaYhteytta {
+    margin-left: 4%;
+    padding-top: 6%;
+    display: inline-block;
+}
+
+.aukioloajat {
+    margin-left: 4%;
+    padding-top: 5%;
+    display: table;
+}
+
+.aukioloajatContent {
+    margin-left: 4%;
+    padding-top: 2%;
+    display: table;
+    padding-bottom: 10%;
+}
+
+.yhteystiedot {
+    margin-left: 4%;
+    padding-top: 6%;
+    padding-bottom: 2%;
+    display: table;
+}
+
+@media screen and (max-width: 768px) {
+
+    .firstRowContact {
+        margin-right: 4%;
+        margin-left: 4%;
+        width: auto;
+        text-align: center;
+    }
+
+    .otaYhteytta, .aukioloajat, .aukioloajatContent, .yhteystiedot, .mail, .Address  {
+        text-align: center;
+        display: block;
+    }
+
+    .aukioloajatContent {
+        padding-bottom: 80%;
+    }
+
+    .Address {
+        padding-bottom: 2%;
+    }
+
+    .phoneNumber {
+        text-align: center;
+        padding: 0;
+        display: block;
+    }
+   
+    .mapPosition {
+        position: relative;
+        bottom: 10%;
+        width: 100%;
+        display: block;
+        margin: auto;
+        height: 50%;
+    }
+
+
+
+}
+

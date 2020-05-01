@@ -1,0 +1,26 @@
+.headerStyle {
+    background: #F4FDFD;
+    color: #F4FDFD;
+    text-align: left;
+    padding: 8%;
+    width: 100%;
+    background-image: url('./logo.jpg');
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.headerName {
+    color: #187F24;
+    text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+    .headerStyle {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+

@@ -1,0 +1,41 @@
+.hinnastoModal {
+    border: 1px solid rgb(2, 43, 2);
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+
+}
+
+.hinnastoTitle {
+    margin-left: 4%; 
+    padding-top: 6%;
+    display: inline-block;
+}
+
+.hinnastoContent {
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 54%;
+    background-color: #F4FDFD;
+    padding-bottom: 5%;
+    display: inline-block;
+    width: 45%;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .hinnastoContent {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .hinnastoTitle {
+        text-align: center;
+        margin: auto;
+        display: block;
+        padding-bottom: 5%;
+    }
+}

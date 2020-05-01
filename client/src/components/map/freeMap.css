@@ -1,0 +1,13 @@
+.pin {
+    width: 40px;
+    height: 40px;
+}
+
+.mapWrapper {
+    width: 100%;
+    position: relative;
+}
+
+.map {
+    width: 100vw;
+}

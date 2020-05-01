@@ -1,0 +1,88 @@
+.Footer {
+    background-color: rgb(8, 41, 8);
+    margin-top: 12%;
+    margin-bottom: 0%;
+    color: white;
+    width: 100%;
+    margin-right: 0%;
+    margin-left: 0%;
+    padding: 6%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.aukioloajatWrapper {
+    display: inline-block;
+    margin-left: 60%;
+}
+
+.aukioloajatTitle {
+    padding-bottom: 14%;
+}
+
+.Aukioloajat {
+    display: table-footer-group;
+    color: white;
+    padding-top: 1%;
+
+}
+
+.Linkit {
+    display: inline-block;
+    padding-right: 10%;
+
+}
+
+.linkitTitle {
+    padding-bottom:10%;
+    padding-right: 0%;
+}
+
+
+
+.LinkStyle {
+    
+    padding-right: 0px;
+    color: white;
+    padding-top: 1%;
+    display: table-footer-group;
+
+}
+
+.LinkStyle:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+
+    .Linkit, .aukioloajatWrapper {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .linkitTitle {
+        margin-top: 10%;
+    }
+
+    .linkitTitle, .LinkStyle {
+        margin-left: 10%;
+        text-align: center
+    }
+
+    .linkitTitle, .aukioloajatTitle {
+        text-align: center;
+        padding-bottom: 5%;
+        padding-top: 8%;
+        
+    }
+
+    .LinkStyle, .Aukioloajat {
+        text-align: center;
+        display: block;
+        
+        
+    }
+
+
+}

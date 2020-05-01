@@ -1,0 +1,228 @@
+.column {
+    width: 90%;
+    background-color:#F4FDFD;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 4%;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.columnTitle {
+    margin-left:4%;
+    padding-top: 6%;
+    display: inline-block;
+}
+
+.firstPhoto {
+
+    display: inline-block;
+    border: 1px solid rgb(2, 43, 2);
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    width: 50%;
+    height: 100%;
+    transition: 0.3s;
+    max-width: 100%;
+
+}
+
+.firstPhoto:hover {
+
+    opacity: 0.8;
+}
+
+.firstRow {
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 54%;
+    background-color: #F4FDFD;
+    padding-bottom: 8.7%;
+    display: inline-block;
+}
+
+.Link {
+
+    background-color: rgb(8, 41, 8);
+    display: inline-block;
+    position: absolute;
+    left: 37%;
+    bottom: 14%;
+    padding: 0.7%;
+    color: white;
+    font-size: small;
+    text-decoration: underline;
+
+}
+
+.Link:active {
+    outline: none;
+}
+
+.Link:hover {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+
+.column2 {
+    width: 90%;
+    background-color:rgb(213, 238, 213);
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 0%;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.column2Title {
+    margin-left: 54%;
+    padding-top: 6%;
+    display: inline-block;
+}
+
+
+
+.secondPhoto {
+
+    display: inline-block;
+    width: 40%;
+    border: 1px solid rgb(2, 43, 2);
+    position: absolute;
+    right: 50%;
+    top: 0%;
+    width: 50%;
+    height: 100%;
+    transition: 0.3s;
+    max-width: 100%
+
+}
+
+.secondPhoto:hover {
+
+    opacity: 0.8;
+}
+
+.secondRow {
+    margin-top: 2%;
+    margin-left: 54%;
+    margin-right: 4%;
+    background-color: rgb(213, 238, 213);
+    padding-bottom: 8.7%;
+    display: inline-block;
+}
+
+.column3 {
+    width: 90%;
+    background-color:#F4FDFD;
+    margin-right: 5%;
+    margin-left: 5%;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.thirdPhoto {
+
+    display: inline-block;
+    border: 1px solid rgb(2, 43, 2);
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    width: 50%;
+    height: 100%;
+    transition: 0.3s;
+    max-width: 100%
+
+}
+
+
+.thirdPhoto:hover {
+
+    opacity: 0.8;
+}
+
+.thirdRow {
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 54%;
+    background-color: #F4FDFD;
+    padding-bottom: 8.7%;
+    display: inline-block;
+}
+
+.Link {
+
+    background-color: rgb(8, 41, 8);
+    display: inline-block;
+    position: absolute;
+    left: 37%;
+    bottom: 14%;
+    padding: 0.7%;
+    color: white;
+    font-size: small;
+    text-decoration: underline;
+
+}
+
+.Link:hover {
+    background-color: green;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .column, .column2, .column3 {
+        width: 100%;
+        margin: 0;
+    }
+    .firstPhoto, .secondPhoto, .thirdPhoto {
+        display: table;
+        width: 100%; 
+        max-width: 100%;
+        position: relative;
+        left: 0px;
+        margin: 0 auto;
+    }
+
+    .firstRow, .thirdRow {
+        display: flex;
+        margin-right: auto;
+        position: relative;
+        padding-bottom: 20%;
+
+    }
+
+    .secondRow {
+        display: flex;
+        margin-left: 4%;
+        margin-right: auto;
+    }
+
+    .columnTitle, .column2Title {
+        text-align: center;
+        margin: auto;
+        display: block;
+    }
+
+    .Link {
+        position: absolute;
+        display: inline-block;
+        bottom: 75vw;
+        margin-left: 20%;
+        margin-bottom: 0vw;
+        margin-top: 0vw;
+        padding: 2%;
+    }
+}
+
+/*Portrait ipad pro 10.5*/ 
+@media screen and (min-width: 833px) and (max-width: 1112px) and (orientation: portrait) {
+    .Link {
+        left: 20%;
+        bottom: 6%;
+    }
+}
