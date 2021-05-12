@@ -18,7 +18,7 @@
     "morgan": "~1.9.1",
     "multer": "^1.4.2",
     "node-env-run": "^3.0.2",
-    "nodemailer": "^6.4.6",
+    "nodemailer": "^6.4.16",
     "nodemailer-mailgun-transport": "^2.0.0"
   },
   "devDependencies": {
